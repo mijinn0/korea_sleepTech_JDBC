@@ -115,7 +115,7 @@ public class MemberManager {
         }
 
         if (!newEmail.isEmpty()) {
-            member.setName(newEmail);
+            member.setEmail(newEmail);
         }
 
         memberDao.updateMember(member);
